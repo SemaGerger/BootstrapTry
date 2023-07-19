@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+/* Başlık stil */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+/* Ana içerik stil */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+/* İçerik kutusu stil */
+.content-box {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  flex-basis: calc(33.33% - 20px);
+}
+/* Footer stil (burası html’de yok)*/
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+aside {
+  float: right;
+  width: 20%;
+  padding: 20px;
+}
